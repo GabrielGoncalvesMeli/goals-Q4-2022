@@ -1,0 +1,12 @@
+com/mercadolibre/goal/Main.java
+ com.mercadolibre.goal.Main
+com/mercadolibre/goal/service/PersonController.java
+ com.mercadolibre.goal.service.PersonController
+com/mercadolibre/goal/service/WordService.java
+ com.mercadolibre.goal.service.WordService
+com/mercadolibre/goal/router/Router.java
+ com.mercadolibre.goal.router.Router
+com/mercadolibre/goal/controller/PersonController.java
+ com.mercadolibre.goal.controller.PersonController
+com/mercadolibre/goal/controller/WordController.java
+ com.mercadolibre.goal.controller.WordController
