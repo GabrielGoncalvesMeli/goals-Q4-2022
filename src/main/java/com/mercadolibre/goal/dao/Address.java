@@ -15,5 +15,5 @@ public class Address {
     private String street;
     private String neighborhood;
     private String city;
-    private String State;
+    private String state;
 }

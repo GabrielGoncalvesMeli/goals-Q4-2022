@@ -8,7 +8,8 @@ public class JavalinResponse implements Response {
     private Context ctx;
 
     @Override
-    public int status() {
+    public int status(int statusNumber) {
+        ctx.status(statusNumber);
         return ctx.status();
     }
 }

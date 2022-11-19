@@ -1,12 +1,27 @@
+com/mercadolibre/goal/dao/Person.java
+ com.mercadolibre.goal.dao.Person
+ com.mercadolibre.goal.dao.Person$PersonBuilder
+ com.mercadolibre.goal.dao.Person$UserType
+com/mercadolibre/goal/router/JavalinRequest.java
+ com.mercadolibre.goal.router.JavalinRequest
+com/mercadolibre/goal/router/JavalinResponse.java
+ com.mercadolibre.goal.router.JavalinResponse
+com/mercadolibre/goal/router/Request.java
+ com.mercadolibre.goal.router.Request
+com/mercadolibre/goal/dao/Address.java
+ com.mercadolibre.goal.dao.Address
+ com.mercadolibre.goal.dao.Address$AddressBuilder
+com/mercadolibre/goal/router/Response.java
+ com.mercadolibre.goal.router.Response
+com/mercadolibre/goal/domain/PeopleDomain.java
+ com.mercadolibre.goal.domain.PeopleDomain
 com/mercadolibre/goal/Main.java
  com.mercadolibre.goal.Main
-com/mercadolibre/goal/service/PersonController.java
- com.mercadolibre.goal.service.PersonController
-com/mercadolibre/goal/service/WordService.java
- com.mercadolibre.goal.service.WordService
 com/mercadolibre/goal/router/Router.java
  com.mercadolibre.goal.router.Router
+com/mercadolibre/goal/module/GoalsModule.java
+ com.mercadolibre.goal.module.GoalsModule
 com/mercadolibre/goal/controller/PersonController.java
  com.mercadolibre.goal.controller.PersonController
-com/mercadolibre/goal/controller/WordController.java
- com.mercadolibre.goal.controller.WordController
+com/mercadolibre/goal/service/PersonService.java
+ com.mercadolibre.goal.service.PersonService

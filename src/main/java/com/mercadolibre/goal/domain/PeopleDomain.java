@@ -3,27 +3,28 @@ package com.mercadolibre.goal.domain;
 import com.mercadolibre.goal.dao.Person;
 
 import java.util.HashMap;
+import java.util.Optional;
 
 public abstract class PeopleDomain {
-    private final HashMap<String, Person> people = new HashMap<>();
+    private static final HashMap<String, Person> people = new HashMap<>();
 
-    public HashMap<String, Person> getAllPeople () {
-        return this.people;
+    public static HashMap<String, Person> getAllPeople () {
+        return people;
     }
 
-    public void addPerson(Person person) {
-        this.people.put(person.getEmail(), person);
+    public static void addPerson(Person person) {
+        people.put(person.getEmail(), person);
     }
 
-    public Person getAPersonByEmail(String email) {
-        return this.people.get(email);
+    public static Optional<Person> getAPersonByEmail(String email) {
+        return Optional.of(people.get(email));
     }
 
-    public void deleteAPersonByEmail(String email) {
-        this.people.remove(email);
+    public static void deleteAPersonByEmail(String email) {
+        people.remove(email);
     }
 
-    public void deleteAllPeople() {
-        this.people.clear();
+    public static void deleteAllPeople() {
+        people.clear();
     }
 }
